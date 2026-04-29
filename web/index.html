@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ytmini</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <main class="card" aria-live="polite">
+    <h1>ytmini</h1>
+    <p class="subtitle">Descarga contenido propio o con permiso.</p>
+
+    <form id="download-form" class="form">
+      <label for="url">URL de YouTube</label>
+      <input id="url" name="url" type="url" placeholder="https://youtube.com/watch?v=..." required>
+
+      <label for="format">Formato</label>
+      <select id="format" name="format">
+        <option value="mp3">MP3</option>
+        <option value="mp4">MP4</option>
+        <option value="wav">WAV</option>
+      </select>
+
+      <button id="submit-button" type="submit">Descargar</button>
+    </form>
+
+    <p id="status" class="status" role="status"></p>
+  </main>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
