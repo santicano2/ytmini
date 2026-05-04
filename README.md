@@ -2,12 +2,6 @@
 
 App web minimalista para descargar videos de YouTube en `MP3`, `MP4` o `WAV` para uso local
 
-## Requisitos
-
-- Node.js 20+
-- `yt-dlp` instalado y disponible en `PATH`
-- `ffmpeg` instalado y disponible en `PATH`
-
 ## Instalacion
 
 ```bash
