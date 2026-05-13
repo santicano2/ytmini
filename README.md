@@ -1,6 +1,6 @@
 # ytmini
 
-App web minimalista para descargar videos de YouTube en `MP3`, `MP4` o `WAV` para uso local.
+App web minimalista para descargar videos de YouTube en `MP3`, `MP4` o `WAV` para uso local
 
 ## Instalacion
 
